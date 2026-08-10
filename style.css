@@ -324,6 +324,43 @@ section{
 
 }
 
+.service{
+
+    background:var(--bg-soft);
+
+}
+
+
+
+
+
+.service-grid{
+
+
+    display:flex;
+
+    gap:30px;
+
+    overflow-x:auto;
+
+    scroll-behavior:smooth;
+
+    padding:20px 5px 30px;
+
+
+    cursor:grab;
+
+}
+
+
+
+.service-grid:active{
+
+    cursor:grabbing;
+
+}
+
+
 
 
 
