@@ -22,3 +22,30 @@
     --shadow:0 15px 40px rgba(0,0,0,.08);
 
 }
+
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family:'Montserrat',sans-serif;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+}
+
+.container {
+
+     width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
+}
