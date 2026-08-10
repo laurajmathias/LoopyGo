@@ -8,9 +8,11 @@
 :root{
 
     --blue-main:#0a2752;
-    --green-dark:#1b5e20;
-    --green-light:#66bb6a;
-
+    --blue-dark:#20345E;
+    --blue-ligth:#426CC4;
+    --orange-ligth:#DC5F2F; 
+    --orange-dark: #421909; 
+    --grey-grey: #999999; 
     --bg:#ffffff;
     --bg-soft:#f3f8f2;
 
@@ -98,7 +100,7 @@ body{
 
 .nav-container a:hover {
 
-    color: var(--blue-main);
+    color: var(--orange-dark);
 }
 
 .nav-buttons {
@@ -164,3 +166,37 @@ body{
     z-index: 2;
     color: white;
 }
+
+
+.hero h1{
+
+    font-size:72px;
+
+    line-height:1.05;
+
+    color:white;
+
+    font-weight:800;
+
+    margin-bottom:25px;
+
+}
+
+
+.hero p{
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    color:rgb(255, 255, 255);
+
+    opacity: 0.9;
+
+    margin-bottom:35px;
+
+    max-width:550px;
+
+}
+
+
