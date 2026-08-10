@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+:root{
+
+    --green-main:#2e7d32;
+    --green-dark:#1b5e20;
+    --green-light:#66bb6a;
+
+    --bg:#ffffff;
+    --bg-soft:#f3f8f2;
+
+    --text:#1f2937;
+    --text-light:#64748b;
+
+    --border:#dbe7d8;
+
+    --shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
