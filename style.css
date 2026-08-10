@@ -7,7 +7,7 @@
 
 :root{
 
-    --green-main:#2e7d32;
+    --blue-main:#0a2752;
     --green-dark:#1b5e20;
     --green-light:#66bb6a;
 
@@ -95,3 +95,10 @@ body{
     transition:.3s;
 
 }
+
+.nav-container a:hover {
+
+    color: var(--blue-main);
+}
+
+
